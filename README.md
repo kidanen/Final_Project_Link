@@ -90,6 +90,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 
-# Kidane Negash - [GitHub](https://github.com/exclusiveabhi)
+# Kidane Negash - [GitHub](https://github.com/kidanen)
 
-# Project Link: [https://github.com/exclusiveabhi/react-job-portal.git](https://github.com/exclusiveabhi/react-job-portal.git)
+# Project Link: [https://github.com/kidanen/Final_Project_Link.git](https://github.com/kidanen/Final_Project_Link.git)
