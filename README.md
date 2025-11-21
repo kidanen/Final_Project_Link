@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/exclusiveabhi/react-job-portal.git
+   git clone https://github.com/kidanen/Final_Project_Link.git
    ```
 2. Install NPM packages:
 
@@ -89,7 +89,6 @@ Contributions are what make the open-source community such an amazing place to l
 ## Please give a star ⭐ to the repository if you like it.
 
 ## Contact
-
-# Kidane Negash - [GitHub](https://github.com/kidanen)
-
-# Project Link: [https://github.com/kidanen/Final_Project_Link.git](https://github.com/kidanen/Final_Project_Link.git)
+Email:kidanenegash1994@gmail.com
+Kidane Negash - [GitHub](https://github.com/kidanen)
+Project Link: [https://github.com/kidanen/Final_Project_Link.git](https://github.com/kidanen/Final_Project_Link.git)
