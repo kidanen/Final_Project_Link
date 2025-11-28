@@ -5,7 +5,7 @@ dotenv.config()
 //Database connection here!
  const dbConnection  = ()=>{
     mongoose.connect(process.env.DB_URL,{
-       dbName: "jop-portal"
+       dbName: "job-portal"
 
     }).then(()=>{ //agar connect ho jaye toh!
        console.log("MongoDB Connected Sucessfully !")
