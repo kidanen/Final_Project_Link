@@ -75,22 +75,5 @@ To get a local copy up and running follow these simple steps.
    npm run dev
    ```
 7. Open your browser and navigate to `http://localhost:5173` to view the app.
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request (`we will merge within 24 hour`)
-
-## Please give a star ⭐ to the repository if you like it.
-
-## Contact
-Email:kidanenegash1994@gmail.com
-Kidane Negash - [GitHub](https://github.com/kidanen)
-Deployed at [final-project-link-mern-stack-july.vercel.app] 
-(final-project-link-mern-stack-july.vercel.app)
-Project Link: [https://github.com/kidanen/Final_Project_Link](https://github.com/kidanen/Final_Project_Link)
+8. The project is Deployed at [https://final-project-link-mern-stack-july.vercel.app/register](https://final-project-link-mern-stack-july.vercel.app/register)
+9. The project Link is at: [https://github.com/kidanen/Final_Project_Link](https://github.com/kidanen/Final_Project_Link)
