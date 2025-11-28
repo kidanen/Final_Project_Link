@@ -1,5 +1,5 @@
 import express from "express";
-import dbConnection  from "./database/dbConnection.js";
+import dbConnection from "./database/dbConnection.js";
 import jobRouter from "./routes/jobRoutes.js";
 import userRouter from "./routes/userRoutes.js";
 import applicationRouter from "./routes/applicationRoutes.js";
@@ -12,10 +12,11 @@ import fileUpload from "express-fileupload";
 const app = express();
 config({ path: "./config/config.env" });
 
+// Enable CORS before routes
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
-    method: ["GET", "POST", "DELETE", "PUT"],
+    origin: [process.env.FRONTEND_URL,"http://localhost:5173"], // frontend URLs
+    methods: ["GET", "POST", "DELETE", "PUT", "OPTIONS"],
     credentials: true,
   })
 );
@@ -30,10 +31,16 @@ app.use(
     tempFileDir: "/tmp/",
   })
 );
+
+// Routes
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/job", jobRouter);
 app.use("/api/v1/application", applicationRouter);
+
+// Connect to database
 dbConnection();
 
+// Error middleware
 app.use(errorMiddleware);
+
 export default app;
